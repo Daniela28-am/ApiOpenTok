@@ -1,0 +1,7 @@
+<?PHP
+use OpenTok\OpenTok;
+$opentok = new OpenTok(API_KEY,API_SECRET);
+// Replace with the correct session ID:
+print $opentok->generateToken('your_session_ID');
+print "\n";
+?>
